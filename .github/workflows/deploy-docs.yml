@@ -32,3 +32,4 @@ jobs:
           projectName: cf-test-site
           directory: ./.svelte-kit/cloudflare
           deploymentName: Production
+          wranglerVersion: "4"
