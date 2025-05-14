@@ -35,3 +35,4 @@ jobs:
           projectName: cf-test-site
           deploymentName: Preview
           directory: ${{ steps.preview-build-artifact.outputs.download-path }}/cloudflare
+          wranglerVersion: "4"
