@@ -31,4 +31,4 @@ jobs:
         with:
           name: preview-build
           include-hidden-files: true
-          path: .svelte-kit
+          path: ./**/*
