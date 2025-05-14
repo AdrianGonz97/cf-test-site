@@ -34,6 +34,5 @@ jobs:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           projectName: cf-test-site
           deploymentName: Preview
-          workingDirectory: ${{ steps.preview-build-artifact.outputs.download-path }}
-          directory: cloudflare
+          directory: ${{ steps.preview-build-artifact.outputs.download-path }}/cloudflare
           wranglerVersion: "4"
